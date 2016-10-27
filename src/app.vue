@@ -1,7 +1,7 @@
 <template>
   <div class="main container">
     <input type="text" v-model="text" />
-    <div class="hello">Hello {{ text }}!</div>
+    <div class="hello">aWW YISS {{ text }}!</div>
     <div class="text-center">
       <dropdown>
         <button type="button" class="btn btn-success" data-toggle="dropdown">
