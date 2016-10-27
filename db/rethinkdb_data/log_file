@@ -1,0 +1,52 @@
+2016-10-27T16:09:25.523175500 0.009057s notice: In recursion: removing file 'C:\\Projects\\CompetenceMatrix\\db\\rethinkdb_data\\tmp'
+2016-10-27T16:09:25.523175501 0.009450s warn: Trying to delete non-existent file 'C:\\Projects\\CompetenceMatrix\\db\\rethinkdb_data\\tmp'
+2016-10-27T16:09:25.526175500 0.012094s notice: Initializing directory C:\\Projects\\CompetenceMatrix\\db\\rethinkdb_data
+2016-10-27T16:09:25.529175500 0.015083s info: Creating a default database for your convenience. (This is because you ran 'rethinkdb' without 'create', 'serve', or '--join', and the directory 'C:\\Projects\\CompetenceMatrix\\db\\rethinkdb_data' did not already exist or is empty.)
+2016-10-27T16:09:25.529175501 0.015131s notice: Running rethinkdb 2.3.5-windows (MSC 190023506)...
+2016-10-27T16:09:25.529175502 0.015337s notice: Running on 6.1.7601 (Windows 7, Server 2008 R2)
+2016-10-27T16:09:25.529175503 0.015436s notice: Loading data from directory C:\\Projects\\CompetenceMatrix\\db\\rethinkdb_data
+2016-10-27T16:09:25.759175500 0.245131s info: Automatically using cache size of 2563 MB
+2016-10-27T16:09:25.761175500 0.246933s notice: Listening for intracluster connections on port 29015
+2016-10-27T16:09:25.762175500 0.248634s notice: Listening for client driver connections on port 28015
+2016-10-27T16:09:25.762175501 0.248717s warn: bind failed: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+2016-10-27T16:09:25.770175500 0.256615s error: Could not bind to http port: The address at localhost:8080 is reserved or already in use.
+2016-10-27T16:09:53.130175500 0.013461s notice: Running rethinkdb 2.3.5-windows (MSC 190023506)...
+2016-10-27T16:09:53.131175500 0.013841s notice: Running on 6.1.7601 (Windows 7, Server 2008 R2)
+2016-10-27T16:09:53.131175501 0.013941s notice: Loading data from directory C:\\Projects\\CompetenceMatrix\\db\\rethinkdb_data
+2016-10-27T16:09:53.150175500 0.032855s info: Automatically using cache size of 2613 MB
+2016-10-27T16:09:53.151175500 0.033862s notice: Listening for intracluster connections on port 29015
+2016-10-27T16:09:53.152175500 0.035479s notice: Listening for client driver connections on port 28015
+2016-10-27T16:09:53.153175500 0.035666s warn: bind failed: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+2016-10-27T16:09:53.160175500 0.043020s error: Could not bind to http port: The address at localhost:8080 is reserved or already in use.
+2016-10-27T16:15:44.508209700 0.010827s notice: Running rethinkdb 2.3.5-windows (MSC 190023506)...
+2016-10-27T16:15:44.509209800 0.011735s notice: Running on 6.1.7601 (Windows 7, Server 2008 R2)
+2016-10-27T16:15:44.510209900 0.012827s notice: Loading data from directory C:\\Projects\\CompetenceMatrix\\db\\rethinkdb_data
+2016-10-27T16:15:44.530211900 0.031999s info: Automatically using cache size of 2589 MB
+2016-10-27T16:15:44.531212000 0.033336s notice: Listening for intracluster connections on port 29015
+2016-10-27T16:15:44.532212100 0.034861s notice: Listening for client driver connections on port 28015
+2016-10-27T16:15:44.533212200 0.035026s warn: bind failed: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+2016-10-27T16:15:44.546213500 0.047891s error: Could not bind to http port: The address at localhost:8080 is reserved or already in use.
+2016-10-27T16:16:50.580816300 0.011056s notice: Running rethinkdb 2.3.5-windows (MSC 190023506)...
+2016-10-27T16:16:50.580816301 0.011632s notice: Running on 6.1.7601 (Windows 7, Server 2008 R2)
+2016-10-27T16:16:50.581816400 0.012079s notice: Loading data from directory C:\\Projects\\CompetenceMatrix\\db\\rethinkdb_data
+2016-10-27T16:16:50.599818200 0.031027s info: Automatically using cache size of 2586 MB
+2016-10-27T16:16:50.601818400 0.032300s notice: Listening for intracluster connections on port 29015
+2016-10-27T16:16:50.602818500 0.033825s notice: Listening for client driver connections on port 28015
+2016-10-27T16:16:50.602818501 0.033975s warn: bind failed: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+2016-10-27T16:16:50.611819400 0.042962s error: Could not bind to http port: The address at localhost:8080 is reserved or already in use.
+2016-10-27T16:17:09.426700700 0.013391s notice: Running rethinkdb 2.3.5-windows (MSC 190023506)...
+2016-10-27T16:17:09.426700701 0.013974s notice: Running on 6.1.7601 (Windows 7, Server 2008 R2)
+2016-10-27T16:17:09.426700702 0.014214s notice: Loading data from directory C:\\Projects\\CompetenceMatrix\\db\\rethinkdb_data
+2016-10-27T16:17:09.445702600 0.032562s info: Automatically using cache size of 2587 MB
+2016-10-27T16:17:09.446702700 0.033733s notice: Listening for intracluster connections on port 29015
+2016-10-27T16:17:09.448702900 0.035942s notice: Listening for client driver connections on port 28015
+2016-10-27T16:17:09.448702901 0.036094s warn: bind failed: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+2016-10-27T16:17:09.458703900 0.045771s error: Could not bind to http port: The address at localhost:8080 is reserved or already in use.
+2016-10-27T16:17:20.594817400 0.011488s notice: Running rethinkdb 2.3.5-windows (MSC 190023506)...
+2016-10-27T16:17:20.596817600 0.012822s notice: Running on 6.1.7601 (Windows 7, Server 2008 R2)
+2016-10-27T16:17:20.596817601 0.013218s notice: Loading data from directory C:\\Projects\\CompetenceMatrix\\db\\rethinkdb_data
+2016-10-27T16:17:20.614819400 0.030990s info: Automatically using cache size of 2586 MB
+2016-10-27T16:17:20.615819500 0.032567s notice: Listening for intracluster connections on port 29015
+2016-10-27T16:17:20.617819700 0.034171s notice: Listening for client driver connections on port 28015
+2016-10-27T16:17:20.617819701 0.034335s warn: bind failed: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+2016-10-27T16:17:20.626820600 0.043376s error: Could not bind to http port: The address at localhost:8080 is reserved or already in use.
