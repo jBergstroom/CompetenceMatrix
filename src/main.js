@@ -1,15 +1,26 @@
 import Vue from 'vue'
-import app from './app.vue'
+import App from './App'
+import Vuex from 'vuex'
 import VueRouter from 'vue-router'
+import TestView from './components/TestView'
+import Competence from './components/Competence'
 
-import 'bootstrap/dist/css/bootstrap.css'
-import './styles.css'
+/* eslint-disable no-new */
 
-Vue.config.debug = process.env.NODE_ENV !== 'production'
-
+Vue.use(Vuex)
 Vue.use(VueRouter)
 
-const router = new VueRouter()
-const App = Vue.extend(app)
+const routes = [
+  { path: '/hello', component: TestView },
+  { path: '/start', component: Competence },
+  { path: '/app', component: App },
+  { path: '/', redirect: '/app' }
+]
 
-router.start(App, 'body')
+const router = new VueRouter({
+  routes
+})
+
+new Vue({
+  router
+}).$mount('#app')

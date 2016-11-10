@@ -1,0 +1,55 @@
+{
+    "ListOfPersons": [
+    {
+        "name": "Jens-Peter",
+        "skills":[
+            {
+                "points": 10,
+                "skillId":1
+            },
+            {
+                "points": 7,
+                "skillId":2
+            },
+            {
+                "points": 5,
+                "skillId":3
+            }
+        ]
+    },
+    {
+        "name": "Daniel",
+        "skills":[
+            {
+                "points": 3,
+                "skillId":1
+            },
+            {
+                "points": 10,
+                "skillId":2
+            },
+            {
+                "points": 6,
+                "skillId":3
+            }
+        ]
+    },
+    {
+        "name":"Esbjörn",
+        "skills":[
+            {
+                "points": 6,
+                "skillId": 1
+            },
+            {
+                "points": 4,
+                "skillId": 2
+            },
+            {
+                "points": 10,
+                "skillId": 3
+            }
+        ]
+    }
+    ]
+}

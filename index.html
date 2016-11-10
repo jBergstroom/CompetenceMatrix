@@ -2,15 +2,15 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>CompetenceMatrix</title>
-    <meta name="description" content="CompetenceMatrix">
-    <meta name="viewport" content="width=device-width">
+    <title>competencematrixv2</title>
   </head>
   <body>
-    <!--[if lt IE 10]>
-      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-    <![endif]-->
-    <app></app>
-    <script src="./build/bundle.js"></script>
+    <div id="app">
+    <router-link to="/start">Go to Start</router-link>
+    <router-link to="/hello">Go to hello</router-link>
+    <router-view></router-view>
+    </div>
+    <!-- built files will be auto injected -->
+
   </body>
 </html>
