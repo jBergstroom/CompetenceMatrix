@@ -1,38 +1,24 @@
 <template>
   <div class="hello">
-    <h1>{{ msg }}</h1>
-    <router-link to='/app'>Go home</router-link>
+    <h1>Select a competence</h1>
+    <ul class="list-group">
+      <li class="list-group-item" v-for="skill in skills"><router-link to="/skill/2">{{skill.name}}</router-link></li>
+    </ul>
   </div>
 </template>
 
 <script>
+import skills from '../data/skills.json'
 export default {
   name: 'competenceselector',
   data () {
     return {
-      msg: 'This is the competence selector'
+      skills: skills
     }
   }
 }
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
-h1, h2 {
-  font-weight: normal;
-}
-
-ul {
-  list-style-type: none;
-  padding: 0;
-}
-
-li {
-  display: inline-block;
-  margin: 0 10px;
-}
-
-a {
-  color: #42b983;
-}
+<style>
 </style>
